@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #e67e22;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('Images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hero .button {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .button:hover {
+    background-color: #d35400;
+}
+
+/* About Section Styles */
+#about {
+    
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about .container {
+    
+    width: 60%;
+    margin: auto;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Menu Section Styles */
+#menu {
+    background-image: url('Images/aboutus.jpg');
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#menu .container {
+    width: 80%;
+    margin: auto;
+}
+
+#menu h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+.menu-item h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Gallery Section Styles */
+#gallery {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#gallery .container {
+    width: 80%;
+    margin: auto;
+}
+
+#gallery h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: calc(33.333% - 10px);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: aquamarine;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact .container {
+    width: 60%;
+    margin: auto;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
